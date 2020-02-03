@@ -22,13 +22,13 @@ class Indexer:
             return
         print('main id', self.main_id)
 
-    def get_direct_linked_pege(self):
+    def get_direct_linked_page(self):
         first_level = self.get_linked_page(self.main_id)
         self.linked_pages.append(first_level)
 
     def start_research(self, *, max_level: int = None):
         if not len(self.linked_pages):
-            self.get_direct_linked_pege()
+            self.get_direct_linked_page()
 
         print(f'Level 1 size {len(self.linked_pages[0])}')
 
