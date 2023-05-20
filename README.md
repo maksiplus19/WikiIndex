@@ -1,6 +1,6 @@
 # WikiIndex
 
-This project use Wiki API and allow to find all pages that link to current page.
+This project use Wiki API and allow to find all pages that link to the givven page.
 
 Этот проект использует Wiki API и позволяет находить все статьи, которые ссылаются на данную.
 
